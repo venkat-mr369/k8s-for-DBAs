@@ -8,7 +8,7 @@ Use the following command to create a small, single-zone GKE cluster with a spec
 
 ```bash
 gcloud container clusters create my-gke-cluster \
-  --zone us-central1-a \
+  --zone asia-east1-a \
   --num-nodes=2 \
   --machine-type=e2-medium
 ```
