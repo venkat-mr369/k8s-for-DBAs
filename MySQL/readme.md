@@ -1,5 +1,5 @@
 ### Kubernetes with MySQL DBA on Linux
-[Kubernetes Architecutre]([https://github.com/venkat-mr369/k8s-for-DBAs/GKE-Notes.md](https://github.com/venkat-mr369/k8s-for-DBAs/blob/main/GKE-Notes.md))
+#### [Kubernetes Architecutre](https://github.com/venkat-mr369/k8s-for-DBAs/GKE-Notes.md](https://github.com/venkat-mr369/k8s-for-DBAs/blob/main/GKE-Notes.md)
 ## Overview
 
 Running MySQL on Kubernetes in a Linux environment combines the flexibility of container orchestration with the reliability of Linux. A MySQL DBA (Database Administrator) in this setup is responsible for both traditional database management and Kubernetes-native operations.
