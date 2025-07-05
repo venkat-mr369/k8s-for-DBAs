@@ -133,6 +133,7 @@
 GKE is a robust, flexible, and secure platform for running containerized workloads at scale, suitable for a wide range of industries and application types. It abstracts away much of the operational complexity, allowing teams to focus on building and delivering value through their applications.
 
 #### Reference links
+```bash
 [1] https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview
 [2] https://cloud.google.com/kubernetes-engine/docs/release-notes
 [3] https://notes.kodekloud.com/docs/GKE-Google-Kubernetes-Engine/High-Level-Overview/Google-Kubernetes-Engine-Architecture
@@ -153,3 +154,4 @@ GKE is a robust, flexible, and secure platform for running containerized workloa
 [18] https://www.cloudzero.com/blog/gke-monitoring/
 [19] https://www.youtube.com/watch?v=Rl5M1CzgEH4
 [20] https://console.cloud.google.com/marketplace/product/google-cloud-platform/container-engine
+```
