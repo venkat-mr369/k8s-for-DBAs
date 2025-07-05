@@ -1,6 +1,6 @@
-# GKE Cluster Creation Using gcloud 
+#### GKE Cluster Creation Using gcloud 
 
-## 1. Cluster Preparation
+### 1. Cluster Preparation
 
 ### a. Create a Minimal GKE Cluster
 
