@@ -16,7 +16,7 @@ gcloud container clusters create my-gke-cluster \
 - `--zone us-central1-a`: Choose your preferred zone.
 - `--num-nodes=2`: Number of nodes (adjust as needed).
 - `--machine-type=e2-medium`: Node size (2 vCPU, 4 GB RAM per node; adjust for your workload).
-#### output
+#### Output
 ```bash
 Note: The Kubelet readonly port (10255) is now deprecated. Please update your workloads to use the recommended alternatives. See https://cloud.google.com/kubernetes-engine/docs/how-to/disable-kubelet-readonly-port for ways to check usage and for migration instructions.
 Note: Your Pod address range (`--cluster-ipv4-cidr`) can accommodate at most 1008 node(s).
