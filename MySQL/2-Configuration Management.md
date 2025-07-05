@@ -1,4 +1,4 @@
-# MySQL on Kubernetes: Configuration Management Notes
+# MySQL on Kubernetes: Configuration Management 
 
 ## 1. Environment Variables
 
