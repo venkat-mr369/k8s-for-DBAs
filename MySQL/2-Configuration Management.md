@@ -1,6 +1,6 @@
 ### MySQL on Kubernetes: Configuration Management 
 
-## 1. Environment Variables
+#### 1. Environment Variables
 
 **Purpose:**  
 Environment variables are used in Kubernetes deployment YAML files to pass configuration parameters to the MySQL container securely and flexibly.
@@ -29,7 +29,7 @@ kubectl create secret generic mysql-secret \
   --namespace=mysql1
 ```
 
-## 2. Custom Configurations (my.cnf)
+#### 2. Custom Configurations (my.cnf)
 
 **Purpose:**  
 Custom MySQL configuration (e.g., tuning parameters) can be provided by mounting a custom `my.cnf` file into the container using a ConfigMap.
