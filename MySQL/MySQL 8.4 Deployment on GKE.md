@@ -1,8 +1,8 @@
-# MySQL 8.4 Deployment on GKE (Kubernetes) – Step-by-Step Guide
+#### MySQL 8.4 Deployment on GKE (Kubernetes) – Step-by-Step Guide
 
 Your GKE cluster (`my-gke-cluster`) is running in `asia-east1-a` with two `e2-medium` nodes and Kubernetes version 1.32.4-gke.1415000. Below is a secure, modern workflow for deploying MySQL 8.4 using Kubernetes manifests, following best practices and avoiding deprecated features.
 
-## 1. Create a Namespace (Optional)
+#### 1. Create a Namespace (Optional)
 
 Isolate your MySQL resources:
 
@@ -10,13 +10,13 @@ Isolate your MySQL resources:
 kubectl create namespace mysql1
 ```
 
-## 2. Create a Kubernetes Secret for MySQL Root Password
+#### 2. Create a Kubernetes Secret for MySQL Root Password
 
 Store the MySQL root password securely:
 
 ```bash
 kubectl create secret generic mysql-secret \
-  --from-literal=password='YourRootPassword' \
+  --from-literal=password='MySQL@123' \
   --namespace=mysql1
 ```
 *Replace `'YourRootPassword'` with a strong password.*
